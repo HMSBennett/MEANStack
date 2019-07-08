@@ -5,7 +5,7 @@ Description=Mongodb
 User=mongodbadm
 
 WorkingDirectory=/home/mongodbadm
-
+ExecStart=ng run start
 
 [Install]
 WantedBy=multi-user.target
