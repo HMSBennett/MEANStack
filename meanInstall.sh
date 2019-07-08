@@ -26,7 +26,7 @@ sudo apt install -y mongodb
 
 sudo /etc/sudoer
 
-sudo cp mongodbadm.service ../../etc/systemd/system
+sudo cp mongodbadm.service ~/etc/systemd/system
 
 sudo systemctl daemon-reload
 
