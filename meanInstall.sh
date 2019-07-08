@@ -32,6 +32,8 @@ sudo systemctl daemon-reload
 
 sudo systemctl start mongodb
 
+exit
+
 cd 
 
 git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
@@ -42,6 +44,4 @@ git checkout Developer
 
 npm install
 
-sudo npm install -y -g @angular/cli
-
-cd
+yes y | sudo npm install -g @angular/cli
