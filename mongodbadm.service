@@ -1,0 +1,11 @@
+[Unit]
+Description=Mongodb
+
+[Service]
+User=mongodbadm
+
+WorkingDirectory=/home/mongodbadm
+
+
+[Install]
+WantedBy=multi-user.target
