@@ -10,8 +10,6 @@ sudo apt-get install git
 
 git clone https://github.com/Nboaram/TeamAPoolProjectBackend.git
 
-git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
-
 cd TeamAPoolProjectBackend/
 
 git checkout Developer
@@ -28,13 +26,15 @@ sudo apt install -y mongodb
 
 sudo /etc/sudoer
 
-sudo cp mongodbadm.service /etc/systemd/system
+sudo cp mongodbadm.service ../../etc/systemd/system
 
 sudo systemctl daemon-reload
 
 sudo systemctl start mongodb
 
 cd 
+
+git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
 
 cd TeamAPoolProjectUI/
 
