@@ -8,8 +8,7 @@ sudo apt-get install git
 
 git clone https://github.com/Nboaram/TeamAPoolProjectBackend.git
 
-git clone https://github.com/Nboaram/TeamAPoolProje
-ctUI.git
+git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
 
 cd TeamAPoolProjectBackend/
 
