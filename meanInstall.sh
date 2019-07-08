@@ -32,8 +32,6 @@ sudo systemctl daemon-reload
 
 sudo systemctl start mongodb
 
-exit
-
 cd 
 
 git clone https://github.com/Nboaram/TeamAPoolProjectUI.git
