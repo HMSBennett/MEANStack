@@ -4,7 +4,7 @@ Description=Angular
 [Service]
 User=angular
 
-WorkingDirectory=/home/angular
+WorkingDirectory=/home/angular/TeamAPoolProjectUI
 ExecStart=/usr/bin/ng serve --host 0.0.0.0 
 
 [Install]
