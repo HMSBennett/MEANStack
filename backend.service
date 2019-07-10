@@ -4,8 +4,8 @@ Description=Mongodb
 [Service]
 User=mongodb
 
-WorkingDirectory=/home/mongodb/TeamAPoolProjectBackend
-ExecStart=/usr/bin/node /home/mongodb/TeamAPoolProjectBackend/Index.js
+WorkingDirectory=/var/lib/mongodb/TeamAPoolProjectBackend
+ExecStart=/usr/bin/node /var/lib/mongodb/TeamAPoolProjectBackend/Index.js
 
 [Install]
 WantedBy=multi-user.target
