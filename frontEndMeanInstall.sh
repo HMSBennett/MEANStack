@@ -18,6 +18,8 @@ git checkout Developer &&
 
 npm install &&
 
+sudo npm install -y -g @angular/cli &&
+
 sudo systemctl daemon-reload &&
 
 sudo systemctl start frontend &&
