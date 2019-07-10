@@ -2,7 +2,7 @@
 Description=Mongodb
 
 [Service]
-User=mongod
+User=mongodb
 
 WorkingDirectory=/home/mongodb
 ExecStart=node ./Index.js
