@@ -1,16 +1,18 @@
 sudo apt-get update
 
-sudo npm install -y -g @angular/cli
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+sudo apt-get install -y nodejs
 
 sudo cp frontend.service /etc/systemd/system
 
 sudo useradd --create-home angular
 
-sudo usermod -shell /bin/bash angular
+sudo usermod --shell /bin/bash angular
 
 sudo su - angular -c "
 
-git clone https://github.com/Nboaram/TeamAPoolProjectUI.git &&
+git clone https://github.com/Nboaram/TeamAPoolProjectUI &&
 
 cd TeamAPoolProjectUI/ &&
 
