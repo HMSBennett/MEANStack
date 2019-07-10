@@ -5,7 +5,7 @@ Description=Mongodb
 User=mongodb
 
 WorkingDirectory=/home/mongodb
-ExecStart=node ./Index.js
+ExecStart=/usr/bin/node /home/mongodb/TeamAPoolProjectBackend/Index.js
 
 [Install]
 WantedBy=multi-user.target

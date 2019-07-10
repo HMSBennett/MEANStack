@@ -5,7 +5,7 @@ Description=Angular
 User=angular
 
 WorkingDirectory=/home/angular
-ExecStart=ng serve --host 0.0.0.0 
+ExecStart=/usr/bin/ng serve --host 0.0.0.0 
 
 [Install]
 WantedBy=multi-user.target
