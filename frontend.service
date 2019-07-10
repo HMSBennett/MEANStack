@@ -1,0 +1,11 @@
+[Unit]
+Description=Angular
+
+[Service]
+User=angularAdm
+
+WorkingDirectory=/home/angularAdm
+ExecStart=ng serve --host 0.0.0.0 
+
+[Install]
+WantedBy=multi-user.target

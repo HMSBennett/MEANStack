@@ -2,10 +2,10 @@
 Description=Mongodb
 
 [Service]
-User=mongodbadm
+User=mongodbAdm
 
-WorkingDirectory=/home/mongodbadm
-ExecStart=ng run start
+WorkingDirectory=/home/mongodbAdm
+ExecStart=node Index.js
 
 [Install]
 WantedBy=multi-user.target
