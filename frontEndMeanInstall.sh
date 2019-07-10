@@ -24,8 +24,8 @@ npm install &&
 
 sudo npm install -y -g @angular/cli &&
 
-sudo systemctl daemon-reload &&
-
-sudo systemctl start frontend &&
-
 exit"
+
+sudo systemctl daemon-reload
+
+sudo systemctl start frontend

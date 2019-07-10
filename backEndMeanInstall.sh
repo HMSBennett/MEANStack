@@ -22,8 +22,8 @@ git checkout Developer &&
 
 npm install &&
 
-sudo systemctl daemon-reload &&
-
-sudo systemctl start backend &&
-
 exit"
+
+systemctl daemon-reload
+
+systemctl start backend
