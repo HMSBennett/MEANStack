@@ -2,9 +2,9 @@
 Description=Angular
 
 [Service]
-User=angularAdm
+User=angular
 
-WorkingDirectory=/home/angularAdm
+WorkingDirectory=/home/angular
 ExecStart=ng serve --host 0.0.0.0 
 
 [Install]
