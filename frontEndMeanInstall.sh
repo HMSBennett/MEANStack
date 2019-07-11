@@ -10,7 +10,7 @@ sudo apt-get install -y nodejs
 
 echo "-3------------------------------------------------------------------"
 
-sudo npm install -y -g @angular/cli
+yes | sudo npm install -g @angular/cli
 
 echo "-4------------------------------------------------------------------"
 
