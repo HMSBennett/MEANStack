@@ -4,7 +4,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
 
-yes y | sudo npm install -y -g @angular/cli
+sudo npm install -y -g @angular/cli
 
 sudo cp frontend.service /etc/systemd/system
 
@@ -22,7 +22,7 @@ git checkout Developer &&
 
 npm install &&
 
-yes y | sudo npm install -y -g @angular/cli &&
+sudo npm install -y -g @angular/cli &&
 
 exit"
 
