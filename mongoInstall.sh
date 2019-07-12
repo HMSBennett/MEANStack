@@ -4,7 +4,9 @@ sudo apt install -y mongodb
 
 sudo systemctl stop mongodb
 
-sudo mongod --bind_ip localhost,0.0.0.0
+sudo rm /lib/systemd/system/mongodb.service
+
+sudo cp mongodb.service /lib/systemd/system
 
 sudo systemctl daemon-reload
 
