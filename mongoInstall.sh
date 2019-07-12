@@ -12,7 +12,7 @@ sudo mongod --dbpath $HOME/db --port 8080 --fork --logpath /var/tmp/mongodb
 
 #echo "bind_ip = 0.0.0.0" >> /etc/mongodb.conf
 
-mongod --bind_ip localhost,0.0.0.0
+mongod --bind_ip 0.0.0.0
 
 sudo systemctl daemon-reload
 
