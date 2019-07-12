@@ -4,7 +4,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
 
-yes | sudo npm install -g @angular/cli
+#yes | sudo npm install -g @angular/cli
+
+sudo NG_CLI_ANALYTICS=ci npm install -g @angular/cli
 
 sudo cp frontend.service /etc/systemd/system
 
@@ -22,7 +24,7 @@ git checkout Developer &&
 
 yes | npm install &&
 
-yes | sudo npm install -g @angular/cli &&
+sudo NG_CLI_ANALYTICS=ci npm install -g @angular/cli &&
 
 exit"
 
