@@ -24,6 +24,6 @@ npm install &&
 
 exit"
 
-systemctl daemon-reload
+sudo systemctl daemon-reload
 
-systemctl start backend
+sudo systemctl start backend
